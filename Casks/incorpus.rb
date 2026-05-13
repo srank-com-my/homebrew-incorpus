@@ -4,22 +4,22 @@ cask "incorpus" do
 
   on_macos do
     on_intel do
-      sha256 "80271b8c5fcc066fab57f40efbc7db7fcdbc89fbfce6e60305f7c0de9317d958"
+      sha256 "eed134750fd2398201238df6bf15a9d06760fd5aef18b74f55d28b1883d7c3d8"
       url "https://github.com/srank-com-my/incorpus-cli/releases/download/v#{version}/incorpus_#{version}_macOS_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "913ce0271042705dfe48873dfce8316740d1d0e5b6cc1d3d8b1930eb296f905f"
+      sha256 "1cc49e2aeb0dca8e9cd46b3a3d9d39d6279bed0eaccb190f72e130f839857a3d"
       url "https://github.com/srank-com-my/incorpus-cli/releases/download/v#{version}/incorpus_#{version}_macOS_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "06797c42f1345212e32f0e85692a82e7ccf656b8368c617549967f299902e599"
+      sha256 "78ae9d20f00bed5d873632847e4286a60c76e73ceee61ed9d97156b95210498d"
       url "https://github.com/srank-com-my/incorpus-cli/releases/download/v#{version}/incorpus_#{version}_linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "76eb2699f4fe0b4d165318a0517fa4cee3d4c2ee5c275603b0f6d9128369f423"
+      sha256 "b6ba6dae8b5e9cc628e23a00730d2a8d4bf8c2aeb835b6f2716aafb8d098fe1a"
       url "https://github.com/srank-com-my/incorpus-cli/releases/download/v#{version}/incorpus_#{version}_linux_arm64.tar.gz"
     end
   end
